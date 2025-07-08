@@ -1,0 +1,5 @@
+#!/bin/bash
+# Count the number of directories in the PATH variable
+
+# Using awk to split PATH by ":" and count fields
+echo "$PATH" | awk -F: '{print NF}'
