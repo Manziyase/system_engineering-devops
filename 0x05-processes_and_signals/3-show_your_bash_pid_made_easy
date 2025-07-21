@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script uses pgrep to directly find the PID(s) of Bash process(es)
 
-echo "$$"
+pgrep bash
