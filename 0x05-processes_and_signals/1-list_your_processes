@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This script lists all currently running processes for the current user
 
-ps -ef
+ps
 
