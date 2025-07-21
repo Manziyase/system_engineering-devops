@@ -1,4 +1,4 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
 # This script kills a process using its PID provided as an argument
 
 if [ -z "$1" ]; then
