@@ -1,5 +1,5 @@
-#!/bin/bash
-# Bash script that kills a process by PID
+ #!/usr/bin/env bash
+# This script kills a process using its PID provided as an argument
 
 if [ -z "$1" ]; then
   echo "Usage: $0 <PID>"
