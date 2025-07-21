@@ -1,0 +1,10 @@
+#!/bin/bash
+# Bash script that kills a process by PID
+
+if [ -z "$1" ]; then
+  echo "Usage: $0 <PID>"
+  exit 1
+fi
+
+kill -9 "$1"
+
