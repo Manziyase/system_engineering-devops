@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/usr/bin/env bash
 # Starts the infinite loop in the background and kills it using SIGTERM
 
 ./4-to_infinity_and_beyond &
