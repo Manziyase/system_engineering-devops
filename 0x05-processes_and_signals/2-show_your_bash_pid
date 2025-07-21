@@ -1,4 +1,5 @@
 #!/bin/bash
-# shellcheck disable=SC2009
+# This script displays the PID(s) of the Bash process(es) run by the current user
+
 ps -f -u "$(whoami)" | grep bash
 
