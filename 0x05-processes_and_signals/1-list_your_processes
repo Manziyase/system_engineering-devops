@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # This script lists all currently running processes for the current user
 
-pgrep -f "sleep 4"
-
+ps -u $USER
