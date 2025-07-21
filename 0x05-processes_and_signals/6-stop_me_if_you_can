@@ -1,5 +1,5 @@
  #!/usr/bin/env bash
-# Starts the infinite loop in the background and kills it using SIGTERM
+# This script uses `pkill` to kill the process called '4-to_infinity_and_beyond'
 
 ./4-to_infinity_and_beyond &
 pid=$!
