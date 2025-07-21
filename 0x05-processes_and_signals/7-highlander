@@ -1,0 +1,15 @@
+#!/bin/bash
+# Finds all bash processes and kills all except the first one
+
+# Get all bash PIDs
+pids=$(pgrep -x bash)
+
+# Keep the first PID (the one to survive)
+survivor=$(echo "$pids" | head -n 1)
+
+# Kill all other bash processes
+for pid in $pids; do
+    if [ "$pid" != "$survivor" ]; then
+        kill "$pid"
+    fi
+done
